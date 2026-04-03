@@ -17,4 +17,19 @@ public class Silo {
         this.leftPort = leftPort;
         this.rightPort = rightPort;
     }
+
+    public void setAcc(int acc) {
+        this.acc = acc;
+    }
+
+    public int  getAcc() {
+        return acc;
+    }
+    public void setBak(int bak) {
+        this.bak = bak;
+    }
+
+    public int getBak() {
+        return bak;
+    }
 }
